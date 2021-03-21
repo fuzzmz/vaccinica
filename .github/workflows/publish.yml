@@ -1,6 +1,7 @@
 name: Publish website
 
 on:
+  repository_dispatch:
   schedule:
     - cron:  '26 0 * * *' # run nightly
 
